@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 
-var dbURI = 'mongodb://localhost/week18day3mongoose';
+var dbURI = 'mongodb://localhost/mongohw';
 if (process.env.NODE_ENV === 'production') {
     dbURI= "mongodb://heroku_scjqrtjv:7th5aorp00qf8qe95tsnplpktu@ds021741.mlab.com:21741/heroku_scjqrtjv";
 }
