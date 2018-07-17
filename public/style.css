@@ -1,0 +1,71 @@
+/*==================
+== Color Scheme ====
+====================
+| Blue: #0d1f2d    |
+| Mocosin: #f4f1bb |
+| Red: #a63446     |
+| Grey: #b9baa3    |
+| White: #eff1ed   |
+==================*/
+/* https://coolors.co/0d1f2d-f4f1bb-a63446-b9baa3-eff1ed */
+
+body {
+    background-color: #eff1ed;
+  }
+  
+  h1, h4, h5 {
+    color: #a63446;
+  }
+  
+  p:hover {
+    color: rgba(166,52,70,0.5);
+    cursor: pointer;
+  }
+  
+  .deleteBtn {
+    margin-left: 15px;
+  }
+  
+  .deleteBtn:hover {
+    cursor: pointer;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: rgba(166,52,70,0.5);
+  }
+  ::-moz-placeholder {
+    color: rgba(166,52,70,0.5);
+  }
+  :-ms-input-placeholder {
+    color: rgba(166,52,70,0.5);
+  }
+  :-moz-placeholder {
+    color: rgba(166,52,70,0.5);
+  }
+  
+  .btn {
+    background-color: #a63446;
+  }
+  
+  #wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+  }
+  
+  #articles {
+    display: inline-block;
+    overflow: scroll;
+    width: 80%;
+    height: 250px;
+  }
+  
+  #notes {
+    width: 80%;
+  }
+  
+  input {
+    height: 36px;
+    font-size: 24px;
+  }
